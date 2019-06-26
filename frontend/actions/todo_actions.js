@@ -11,3 +11,16 @@ export const receiveTodo = todo => ({
     type: RECEIVE_TODO,
     todo: todo
 });
+
+/*
+
+module.exports = {
+    RECEIVE_TODOS: 'RECEIVE_TODOS',
+    RECEIVE_TODO: 'RECEIVE_TODO',
+    receiveTodos: todos => ({
+        type: RECEIVE_TODOS,
+        todos: todos
+    })
+}
+
+*/
